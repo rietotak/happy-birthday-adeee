@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>🎂 Happy Birthday Adee 🎀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LAYAR PIN (TENGAH, TATA LETAK UMUM) -->
+<div class="pin-container" id="pinScreen">
+  <h1>🔐 Birthday Vault</h1>
+  <div class="pin-sub">Hayo tebak PIN nya apa🫣</div>
+  
+  <div class="pin-dots" id="pinDotsArea">
+    <div class="pin-dot"></div>
+    <div class="pin-dot"></div>
+    <div class="pin-dot"></div>
+    <div class="pin-dot"></div>
+    <div class="pin-dot"></div>
+    <div class="pin-dot"></div>
+  </div>
+  
+  <div class="keypad-grid" id="pinKeypad"></div>
+  <div class="pin-footer">✨ 19 Juni 2026 · spesial untukmu ✨</div>
+</div>
+
+<!-- KONTEN UTAMA SETELAH PIN BENAR -->
+<div class="main-birthday" id="birthdayContent">
+  <h1>🎉Happy Birthday Adee🎉</h1>
+  <div class="nama-manis" id="namaTampil">Sayangku 💖</div>
+  
+  <!-- GAMBAR DARI FILE ANDA -->
+  <div class="foto-container">
+    <img id="birthdayImage" alt="Happy Birthday" src="IMG-20260504-WA0020.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23ffb3d9%22/%3E%3Ctext x=%22200%22 y=%22200%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2230%22%3E🎂%3C/text%3E%3C/svg%3E'">
+    <div class="image-overlay"></div>
+  </div>
+  
+  <div class="cake-besar" id="cakeKlik">🎂💕</div>
+  
+  <div class="kalender-2026" id="juneCalendar"></div>
+  
+  <div class="ucapan-manis">
+    🌷 Semoga setiap harimu dipenuhi kebahagiaan, cinta, & kesehatan! 🌷<br>
+    ✨ 19 Juni 2026 adalah hari yang spesial✨<br>
+    🎈 Panjang umur, makin bahagia, makin jail! 😝
+  </div>
+  <p style="margin-top: 12px; font-size: 0.8rem;">Maaf ya bububku kalau cuman segini🙏🏻</p>
+</div>
+
+<!-- AUDIO DARI FILE ANDA -->
+<audio id="birthdayAudio" loop preload="auto">
+  <source src="ssstik.io_1780614930911.mp3" type="audio/mpeg">
+</audio>
+
+<canvas id="confettiCanvas"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
